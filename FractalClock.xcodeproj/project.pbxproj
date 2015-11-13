@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		31600FE00C0291BB003DC866 /* FractalClock.dmg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 31600FE70C0291E8003DC866 /* Build configuration list for PBXAggregateTarget "FractalClock.dmg" */;
+			buildPhases = (
+				31600FDF0C0291BB003DC866 /* Build Disk Image */,
+			);
+			dependencies = (
+				31600FE20C0291C9003DC866 /* PBXTargetDependency */,
+			);
+			name = FractalClock.dmg;
+			productName = FractalClock.dmg;
+		};
+		316010420C02A16A003DC866 /* FractalClock-source.dmg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3160104F0C02A1A9003DC866 /* Build configuration list for PBXAggregateTarget "FractalClock-source.dmg" */;
+			buildPhases = (
+				316010410C02A16A003DC866 /* Build Disk Image */,
+			);
+			dependencies = (
+			);
+			name = "FractalClock-source.dmg";
+			productName = "FractalClock-source.dmg";
+		};
+		316010650C02A2F3003DC866 /* Web Site */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3160106A0C02A339003DC866 /* Build configuration list for PBXAggregateTarget "Web Site" */;
+			buildPhases = (
+				316010640C02A2F3003DC866 /* Copy Files to Web Site */,
+			);
+			dependencies = (
+				316010670C02A2FA003DC866 /* PBXTargetDependency */,
+				316010690C02A2FD003DC866 /* PBXTargetDependency */,
+			);
+			name = "Web Site";
+			productName = "Web Site";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		315EBC4B0C00C23200D58D12 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315EBC4A0C00C23200D58D12 /* OpenGL.framework */; };
+		8D255AC70486D3F9007BF209 /* FractalClock_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* FractalClock_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* FractalClockView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* FractalClockView.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* FractalClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* FractalClockView.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31600FE10C0291C9003DC866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D255AC50486D3F9007BF209;
+			remoteInfo = FractalClock;
+		};
+		316010660C02A2FA003DC866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31600FE00C0291BB003DC866;
+			remoteInfo = FractalClock.dmg;
+		};
+		316010680C02A2FD003DC866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 316010420C02A16A003DC866;
+			remoteInfo = "FractalClock-source.dmg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		314594330C02B5A500F984FC /* index.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = index.html; path = web/index.html; sourceTree = "<group>"; };
+		314594340C02B5A500F984FC /* saver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saver.png; path = web/saver.png; sourceTree = "<group>"; };
+		315EBC4A0C00C23200D58D12 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		3178271C0C0356B400AC2D22 /* shot-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shot-1.png"; path = "web/shot-1.png"; sourceTree = "<group>"; };
+		3178271D0C0356B400AC2D22 /* shot-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shot-2.png"; path = "web/shot-2.png"; sourceTree = "<group>"; };
+		3178271E0C0356B400AC2D22 /* shot-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shot-3.png"; path = "web/shot-3.png"; sourceTree = "<group>"; };
+		3178271F0C0356B400AC2D22 /* shot-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "shot-4.png"; path = "web/shot-4.png"; sourceTree = "<group>"; };
+		32DBCFA80370C50100C91783 /* FractalClock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractalClock_Prefix.pch; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* FractalClock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalClock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50079790118B23001CA0E54 /* FractalClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractalClockView.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* FractalClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractalClockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+				315EBC4B0C00C23200D58D12 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FractalClock */ = {
+			isa = PBXGroup;
+			children = (
+				314594400C02B5AC00F984FC /* Web */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = FractalClock;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50079790118B23001CA0E54 /* FractalClockView.h */,
+				F500797A0118B23001CA0E54 /* FractalClockView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				315EBC4A0C00C23200D58D12 /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* FractalClock.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		314594400C02B5AC00F984FC /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				3178271C0C0356B400AC2D22 /* shot-1.png */,
+				3178271D0C0356B400AC2D22 /* shot-2.png */,
+				3178271E0C0356B400AC2D22 /* shot-3.png */,
+				3178271F0C0356B400AC2D22 /* shot-4.png */,
+				314594330C02B5A500F984FC /* index.html */,
+				314594340C02B5A500F984FC /* saver.png */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA80370C50100C91783 /* FractalClock_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* FractalClock_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* FractalClockView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* FractalClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "FractalClock" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractalClock;
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = FractalClock;
+			productReference = 8D255AD30486D3F9007BF209 /* FractalClock.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "FractalClock" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FractalClock */;
+			projectDirPath = "";
+			projectRoot = FractalClock;
+			targets = (
+				8D255AC50486D3F9007BF209 /* FractalClock */,
+				31600FE00C0291BB003DC866 /* FractalClock.dmg */,
+				316010420C02A16A003DC866 /* FractalClock-source.dmg */,
+				316010650C02A2F3003DC866 /* Web Site */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31600FDF0C0291BB003DC866 /* Build Disk Image */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/FractalClock.saver",
+			);
+			name = "Build Disk Image";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/FractalClock.dmg",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -ex\n\n[ \"$ACTION\" = build ] || exit 0\n[ \"$BUILD_VARIANTS\" = \"normal\" ] || exit 0\n\ndir=\"$TEMP_FILES_DIR/disk\"\ndmg=\"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.dmg\"\n\nrm -rf \"$dir\"\nmkdir \"$dir\"\ncp -R \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.saver\" \"$dir\"\nrm -f \"$dmg\"\nhdiutil create -srcfolder \"$dir\" -volname \"$PROJECT_NAME\" \"$dmg\"\nhdiutil internet-enable -yes \"$dmg\"\nrm -rf \"$dir\"\n";
+		};
+		316010410C02A16A003DC866 /* Build Disk Image */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Disk Image";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = ". ~/.bashrc\nset -ex\n\n[ \"$ACTION\" = build ] || exit 0\n[ \"$BUILD_VARIANTS\" = \"normal\" ] || exit 0\n\nurl=\"$(svn info . | grep ^URL | sed 's/^URL: //')\"\ndir=\"$TEMP_FILES_DIR/disk\"\ndmg=\"$BUILT_PRODUCTS_DIR/$PROJECT_NAME-source.dmg\"\n\nrm -rf \"$dir\"\nmkdir \"$dir\"\nsvn export \"$url\" \"$dir/FractalClock-source\"\nrm -f \"$dmg\"\nhdiutil create -srcfolder \"$dir\" -volname \"$PROJECT_NAME-source\" \"$dmg\"\nhdiutil internet-enable -yes \"$dmg\"\nrm -rf \"$dir\"\n";
+		};
+		316010640C02A2F3003DC866 /* Copy Files to Web Site */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Files to Web Site";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -ex\n\nrsync -avz \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.dmg\" \"www.dqd.com:www/programs/FractalClock/.\"\nrsync -avz \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME-source.dmg\" \"www.dqd.com:www/programs/FractalClock/.\"\nrsync -avz \"web/.\" \"www.dqd.com:www/programs/FractalClock/.\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* FractalClockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31600FE20C0291C9003DC866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D255AC50486D3F9007BF209 /* FractalClock */;
+			targetProxy = 31600FE10C0291C9003DC866 /* PBXContainerItemProxy */;
+		};
+		316010670C02A2FA003DC866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31600FE00C0291BB003DC866 /* FractalClock.dmg */;
+			targetProxy = 316010660C02A2FA003DC866 /* PBXContainerItemProxy */;
+		};
+		316010690C02A2FD003DC866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 316010420C02A16A003DC866 /* FractalClock-source.dmg */;
+			targetProxy = 316010680C02A2FD003DC866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31600FE80C0291E8003DC866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = FractalClock.dmg;
+			};
+			name = Debug;
+		};
+		31600FE90C0291E8003DC866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = FractalClock.dmg;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		316010500C02A1A9003DC866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "FractalClock-source.dmg";
+			};
+			name = Debug;
+		};
+		316010510C02A1A9003DC866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "FractalClock-source.dmg";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		3160106B0C02A339003DC866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Web Site";
+			};
+			name = Debug;
+		};
+		3160106C0C02A339003DC866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Web Site";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FractalClock_Prefix.pch;
+				"GCC_VERSION[sdk=macosx10.4][arch=*]" = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqd.screensaver.FractalClock;
+				PRODUCT_NAME = FractalClock;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FractalClock_Prefix.pch;
+				"GCC_VERSION[sdk=macosx10.4][arch=*]" = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqd.screensaver.FractalClock;
+				PRODUCT_NAME = FractalClock;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = YES;
+				GCC_VERSION = "";
+				"GCC_VERSION[sdk=macosx10.4][arch=*]" = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				"SDKROOT[arch=x86_64]" = macosx10.6;
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_STRICT_ALIASING = YES;
+				GCC_VERSION = "";
+				"GCC_VERSION[sdk=macosx10.4][arch=*]" = 4.0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				"SDKROOT[arch=x86_64]" = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31600FE70C0291E8003DC866 /* Build configuration list for PBXAggregateTarget "FractalClock.dmg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31600FE80C0291E8003DC866 /* Debug */,
+				31600FE90C0291E8003DC866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3160104F0C02A1A9003DC866 /* Build configuration list for PBXAggregateTarget "FractalClock-source.dmg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316010500C02A1A9003DC866 /* Debug */,
+				316010510C02A1A9003DC866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3160106A0C02A339003DC866 /* Build configuration list for PBXAggregateTarget "Web Site" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3160106B0C02A339003DC866 /* Debug */,
+				3160106C0C02A339003DC866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "FractalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "FractalClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

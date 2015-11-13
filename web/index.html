@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Fractal Clock Screen Saver</title>
+    </head>
+    <body>
+        <h1>Fractal Clock Screen Saver</h1>
+
+	<p> By Rob Mayoff.</p>
+
+	<p> This is a MacOS X screen saver.  It should work on MacOS X
+	10.4 (Tiger) and later. </p>
+
+	<img src='shot-1.png' width='324' height='237'>
+	<img src='shot-2.png' width='324' height='237'>
+	<img src='shot-3.png' width='324' height='237'>
+	<img src='shot-4.png' width='324' height='237'>
+
+	<h2>Installation</h2>
+
+	<div style='float:right'><a href='FractalClock.dmg'><img
+	src='saver.png' width='109' height='70'
+	alt='FractalClock disk image'></a></div>
+
+        <p> Download <a href='FractalClock.dmg'>the screen saver disk
+        image</a>. Find the file shown at right in your download list or
+        download folder. Double-click it. </p>
+
+	<h3 style='clear:both;padding-top:2em'>More Help</h3>
+
+	<p> If you're using Firefox, you have to mount the disk image
+	yourself.  Safari will automatically unpack it.  If you have
+	trouble finding the file, check your browser's download list
+	(Window > Downloads from Safari's menu bar; Tools > Downloads
+	from Firefox's). <p>
+
+	<p> Once System Preferences has installed the screen saver, you
+	can move the copy in your downloads folder to the Trash. </p>
+
+	<h2 style='clear:both'>Design Notes</h2>
+
+	<p> <a href='FractalClock-source.dmg'>The source code.</a>  I
+	have donated it to the public domain.
+
+	<p> The screen saver runs at six times normal speed in the
+	preview window.  When running full screen, it displays your
+	local time. </p>
+
+	<p> The idea was inspired by <a
+	href='http://demonstrations.wolfram.com/TreeBender/'
+	>a Mathematica toy</a>.  You can read more about the toy <a
+	href='http://blog.wolfram.com/2007/05/why_spend_more_than_five.html'
+	>here</a>. </p>
+
+	<p> My algorithm is a little different than Theodore Gray's.  Aside
+	from the obvious difference that I move the locators
+	automatically, I also allow the locators to be at any angle
+	relative to the "trunk" of the tree (which is the hour hand in
+	the screen saver).  In Theodore's version, the locators cannot
+	go below the top of the trunk.  This change makes many more
+	interesting patterns possible. </p>
+
+        <p> The screen saver automatically adjusts its level of detail
+        based on the speed and screen size of your Macintosh. Faster
+        Macs and bigger screens will produce more detail. </p>
+
+	<p> Hosannas and brickbats to <a
+	href='email:fractalclock@rob.dqd.com'
+	><tt>fractalclock@rob.dqd.com</tt></a>.</p>
+
+        <p> This work is hereby released into the Public Domain.
+        To view a copy of the public domain dedication, visit <a
+        href='http://creativecommons.org/licenses/publicdomain/'
+	>http://creativecommons.org/licenses/publicdomain/</a> or
+        send a letter to Creative Commons, 171 Second Street, Suite 300,
+        San Francisco, California, 94105, USA. </p>
+
+	<h2>Version History</h2>
+	<ul>
+	    <li> 2007/05/21: Version 1.0.
+        <li> 2007/05/22: Version 1.0.1.  Fix a crash that happens when running as an actual screen saver, not in test mode in System Preferences.  I never actually tried that...
+        <li> 2009/09/07: Version 1.1.  Added Mac OS X 10.6 (Snow Leopard) compatibility.  This version should work on Intel and PowerPC Macs running Mac OS X 10.4 and 10.5 also.  I also tweaked the colors and scaling.
+	</ul>
+    </body>
+</html>
+

@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 8D255AC50486D3F9007BF209 /* FractalClock */;
+		addToTargets = (
+			316010650C02A2F3003DC866 /* Web Site */,
+		);
+		codeSenseManager = 315EBC090C00C0F000D58D12 /* Code sense */;
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					133.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					172,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					284,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					120,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					183,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					219,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					244,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 274054549;
+			PBXWorkspaceStateSaveDate = 274054549;
+		};
+		perUserProjectItems = {
+			316BD85F1055CC7300F0817E /* PBXTextBookmark */ = 316BD85F1055CC7300F0817E /* PBXTextBookmark */;
+			316BD8601055CC7300F0817E /* PBXTextBookmark */ = 316BD8601055CC7300F0817E /* PBXTextBookmark */;
+			316BD8611055CC7300F0817E /* PBXTextBookmark */ = 316BD8611055CC7300F0817E /* PBXTextBookmark */;
+			316BD8621055CC7300F0817E /* PlistBookmark */ = 316BD8621055CC7300F0817E /* PlistBookmark */;
+			316BD8631055CC7300F0817E /* PBXTextBookmark */ = 316BD8631055CC7300F0817E /* PBXTextBookmark */;
+			316BD8641055CC7300F0817E /* PBXBookmark */ = 316BD8641055CC7300F0817E /* PBXBookmark */;
+			316BD8651055CC7300F0817E /* PBXTextBookmark */ = 316BD8651055CC7300F0817E /* PBXTextBookmark */;
+			317067FA0C06B40D006C363A = 317067FA0C06B40D006C363A /* PBXTextBookmark */;
+			31D273EE0C06B3FD0008052C = 31D273EE0C06B3FD0008052C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 315EBC080C00C0F000D58D12 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {462, 669}}";
+			sepNavSelRange = "{92, 0}";
+			sepNavVisRange = "{0, 108}";
+			sepNavVisRect = "{{0, 0}, {676, 1470}}";
+			sepNavWindowFrame = "{{15, -2}, {721, 1575}}";
+		};
+	};
+	314594330C02B5A500F984FC /* index.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {462, 1598}}";
+			sepNavSelRange = "{249, 0}";
+			sepNavVisRange = "{1789, 1606}";
+			sepNavVisRect = "{{0, 0}, {594, 1473}}";
+			sepNavWindowFrame = "{{15, 0}, {639, 1578}}";
+		};
+	};
+	315EBC080C00C0F000D58D12 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				FractalClock = Personal;
+			};
+		};
+		scmType = "";
+	};
+	315EBC090C00C0F000D58D12 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	31600FE00C0291BB003DC866 /* FractalClock.dmg */ = {
+		activeExec = 0;
+	};
+	316010420C02A16A003DC866 /* FractalClock-source.dmg */ = {
+		activeExec = 0;
+	};
+	316010650C02A2F3003DC866 /* Web Site */ = {
+		activeExec = 0;
+	};
+	316BD85F1055CC7300F0817E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F50079790118B23001CA0E54 /* FractalClockView.h */;
+		name = "FractalClockView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	316BD8601055CC7300F0817E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F500797A0118B23001CA0E54 /* FractalClockView.m */;
+		name = "FractalClockView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	316BD8611055CC7300F0817E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCFA80370C50100C91783 /* FractalClock_Prefix.pch */;
+		name = "FractalClock_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 196;
+		vrLoc = 0;
+	};
+	316BD8621055CC7300F0817E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D255AD20486D3F9007BF209 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = /Users/mayoff/P/treetoy/dev/FractalClock/trunk/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	316BD8631055CC7300F0817E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 92;
+		rType = 0;
+		vrLen = 108;
+		vrLoc = 0;
+	};
+	316BD8641055CC7300F0817E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 314594330C02B5A500F984FC /* index.html */;
+	};
+	316BD8651055CC7300F0817E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 314594330C02B5A500F984FC /* index.html */;
+		name = "index.html: 11";
+		rLen = 0;
+		rLoc = 249;
+		rType = 0;
+		vrLen = 1606;
+		vrLoc = 1789;
+	};
+	317067FA0C06B40D006C363A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F500797A0118B23001CA0E54 /* FractalClockView.m */;
+		name = "FractalClockView.m: 143";
+		rLen = 0;
+		rLoc = 4008;
+		rType = 0;
+		vrLen = 3159;
+		vrLoc = 2557;
+	};
+	31D273EE0C06B3FD0008052C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F500797A0118B23001CA0E54 /* FractalClockView.m */;
+		name = "FractalClockView.m: 143";
+		rLen = 0;
+		rLoc = 4008;
+		rType = 0;
+		vrLen = 3159;
+		vrLoc = 2557;
+	};
+	32DBCFA80370C50100C91783 /* FractalClock_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {462, 669}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 196}";
+			sepNavVisRect = "{{0, 0}, {676, 1470}}";
+			sepNavWindowFrame = "{{15, -2}, {721, 1575}}";
+		};
+	};
+	8D255AC50486D3F9007BF209 /* FractalClock */ = {
+		activeExec = 0;
+	};
+	8D255AD20486D3F9007BF209 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {676, 1470}}";
+			sepNavSelRange = "{715, 0}";
+			sepNavVisRect = "{{0, 0}, {676, 1470}}";
+			sepNavWindowFrame = "{{15, -2}, {721, 1575}}";
+		};
+	};
+	F50079790118B23001CA0E54 /* FractalClockView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {462, 669}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 283}";
+			sepNavVisRect = "{{0, 0}, {734, 195}}";
+			sepNavWindowFrame = "{{15, -2}, {721, 1575}}";
+		};
+	};
+	F500797A0118B23001CA0E54 /* FractalClockView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {462, 5862}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 985}";
+			sepNavVisRect = "{{0, 1530}, {594, 1473}}";
+			sepNavWindowFrame = "{{1530, 0}, {639, 1578}}";
+		};
+	};
+}
